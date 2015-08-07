@@ -21,7 +21,7 @@ my $offset;
 #######################################################################################
 multi sub MAIN( $offsetDays) {
 	$a = grub($offsetDays);
-	say "Date in $days days: $a";
+	say "Date in $offsetDays days: $a";
 }
 #######################################################################################
 multi sub MAIN() {
